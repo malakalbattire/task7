@@ -1,0 +1,31 @@
+.card {
+    background-color: rgba(179, 162, 69, 0.692);
+    padding: 15px 30px;
+    border-radius: 5px;
+    gap: 15px;
+    transition: transform 2s;
+    transform:scale(1);
+  
+  }
+  .card:hover{
+    box-shadow: 5px 5px 8.2372px 0px rgba(0, 0, 0, 0.05);
+    transform:scale(1.15);
+  }
+  button {
+    border: 1px solid black;
+    border-radius: 6px;
+   padding: 10px 30px;
+    background-color:rgb(169, 231, 169);
+  }
+  span {
+    color: #fff;
+    font-size: 23px;
+    background-color: rgb(99, 34, 34);
+    padding: 7px 0px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  button:hover{
+    background-color:rgb(75, 153, 51);
+  }
